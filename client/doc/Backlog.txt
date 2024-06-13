@@ -1,0 +1,105 @@
+Backlog du Projet Gamestore :
+
+    En tant que visiteur, je veux pouvoir consulter la page d'accueil de l'application pour en apprendre davantage sur 
+    l'entreprise et découvrir les promotions en cours.
+        
+        Tâches :
+
+            Créer la page d'accueil avec un descriptif de l'entreprise et une section de promotions.
+
+            Intégrer une image en fond pour une meilleure expérience utilisateur.
+
+
+    En tant que visiteur, je veux pouvoir naviguer facilement à travers l'application en utilisant un menu intuitif 
+    pour accéder aux différentes sections.
+        
+        Tâches :
+
+            Créer un menu de navigation contenant les liens vers les différentes pages de l'application.
+
+            Assurer la navigation fluide entre les différentes sections.
+
+
+    En tant que visiteur, je veux pouvoir voir une liste complète de tous les jeux vidéo disponibles, avec la 
+    possibilité de filtrer les résultats par prix et par genre.
+        
+        Tâches :
+
+            Mettre en place une page pour afficher tous les jeux vidéo avec les fonctionnalités de filtrage 
+            par prix et par genre.
+
+    En tant que visiteur, je veux pouvoir voir les détails d'un jeu vidéo spécifique, y compris son nom, 
+    sa description, son PEGI, son genre, son prix et son image.
+        
+        Tâches :
+
+            Créer une page pour afficher les détails d'un jeu vidéo en fonction de son identifiant.
+
+
+    En tant que visiteur, je veux pouvoir ajouter des jeux vidéo à mon panier d'achat après m'être authentifié 
+    sur l'application.
+        
+        Tâches :
+
+            Implémenter la fonctionnalité d'ajout au panier pour les utilisateurs authentifiés.
+
+            Gérer la disponibilité des jeux et les stocks lors de l'ajout au panier.
+
+
+    En tant que visiteur, je veux pouvoir visualiser mon panier d'achat, y compris les jeux vidéo ajoutés, le prix 
+    total et la possibilité de sélectionner le magasin de retrait et la date de retrait.
+        
+        Tâches :
+        
+            Créer une page pour afficher le contenu du panier avec les fonctionnalités de sélection du magasin de 
+            retrait et de la date de retrait.
+            
+
+    En tant que visiteur, je veux pouvoir créer un compte utilisateur en fournissant mon nom, mon adresse e-mail, 
+    mon adresse postale et un mot de passe.
+        
+        Tâches :
+        
+            Créer un formulaire d'inscription pour les nouveaux utilisateurs.
+            
+            Implémenter la vérification des champs et la gestion des erreurs.
+            
+
+    En tant que visiteur, je veux pouvoir réinitialiser mon mot de passe en cas d'oubli en fournissant mon 
+    adresse e-mail.
+        
+        Tâches :
+        
+            Implémenter la fonctionnalité de réinitialisation du mot de passe avec l'envoi d'un e-mail de 
+            réinitialisation.
+            
+
+    En tant qu'utilisateur, je veux pouvoir consulter mon historique de commandes et modifier mes informations 
+    personnelles depuis mon espace utilisateur.
+        
+        Tâches :
+        
+            Créer une page pour afficher l'historique des commandes de l'utilisateur.
+            
+            Implémenter la fonctionnalité de modification des informations personnelles.
+            
+
+    En tant qu'administrateur, je veux pouvoir ajouter, modifier et supprimer des jeux vidéo, ainsi que gérer les 
+    stocks disponibles.
+        
+        Tâches :
+        
+            Créer une interface d'administration pour la gestion des jeux vidéo et des stocks.
+            
+            Implémenter les fonctionnalités d'ajout, de modification et de suppression des jeux vidéo.
+            
+
+    En tant qu'administrateur, je veux pouvoir visualiser les statistiques de vente des jeux vidéo sous forme de 
+    graphique dynamique.
+        
+        Tâches :
+        
+            Créer un dashboard pour afficher les statistiques de vente des jeux vidéo.
+            
+            Utiliser des bibliothèques JavaScript pour générer des graphiques dynamiques.
+            

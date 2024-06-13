@@ -1,0 +1,37 @@
+    1_ Front-end :
+        HTML, CSS, JavaScript : Étant donné que je maîtrise déjà ces 
+        technologies, il est logique de les utiliser pour le 
+        front-end de l'application. HTML pour la structure, 
+        CSS pour le style et JavaScript pour l'interactivité.
+
+    2_ Back-end :
+        Node.js avec Express : Node.js est une plateforme JavaScript 
+        côté serveur qui me permettra de développer le back-end de 
+        manière efficace et cohérente. Express est un framework 
+        Node.js minimal et flexible qui offre de nombreuses 
+        fonctionnalités pour la création d'API et de routes.
+
+    3_ Base de données :
+        MySQL : J'ai choisi MySQL comme base de données 
+        relationnelle car c'est une technologie bien établie, et 
+        elle offre une performance élevée, une stabilité 
+        et une sécurité robuste pour la gestion des données de 
+        l'application.
+
+    4_ Sécurité :
+        Bcrypt pour le hachage des mots de passe : Pour assurer la 
+        sécurité des mots de passe des utilisateurs, je vais 
+        utiliser Bcrypt, une fonction de hachage de mots de passe 
+        robuste et éprouvée.
+
+    5_ Déploiement :
+        Heroku : Pour le déploiement de l'application, je choisirai 
+        Heroku car c'est une plateforme de cloud qui facilite le 
+        déploiement, la gestion et la mise à l'échelle des 
+        applications. De plus, elle offre une intégration facile 
+        avec GitHub pour des déploiements continus.
+
+En choisissant ces technologies, je m'assure de travailler avec 
+des outils qui sont adaptés aux besoins du projet. Cela me permettra
+de développer l'application de manière efficace et de fournir un 
+produit final de haute qualité.

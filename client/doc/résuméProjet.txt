@@ -1,0 +1,15 @@
+Gamestore, une entreprise spécialisée dans la vente de jeux vidéo, souhaite 
+moderniser son approche commerciale en développant une application web et web 
+mobile. Actuellement, elle dispose de cinq magasins répartis en France, mais ne 
+dispose pas de présence en ligne, se contentant de prospectus pour promouvoir 
+ses produits. Cette stratégie de marketing désuète a conduit à une perte de clients. 
+Pour remédier à cette situation, Gamestore a décidé de faire appel à un développeur 
+freelance pour créer une application qui permettra aux clients de réserver des jeux en 
+ligne et de les récupérer en magasin. L'application doit offrir une expérience 
+utilisateur fluide et sécurisée, en permettant aux utilisateurs de consulter les 
+jeux disponibles, de les réserver, de sélectionner le magasin de retrait et de 
+suivre leur historique de commande. Parallèlement, l'application doit également 
+fournir une interface d'administration pour gérer les jeux, les stocks, les commandes 
+et afficher les statistiques de vente. L'objectif principal est d'améliorer 
+la visibilité de l'entreprise et d'attirer de nouveaux clients tout en offrant une 
+expérience de vente en ligne pratique et sécurisée.

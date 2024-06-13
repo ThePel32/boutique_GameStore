@@ -89,6 +89,20 @@ exports.login = (req, res) => {
   });
 };
 
+exports.logout = (req, res) => {
+  const token = req.headers["x-access-token"];
+  
+  if (!token) {
+    return res.status(400).send({ message: "No token provided." });
+  }
+    delete req.headers["x-access-token"];
+  
+  if (req.headers["x-access-token"]) {
+    return res.status(500).send({ message: "Failed to delete token." });
+  }
+  res.status(200).send({ message: "Logout successful." });
+};
+
 exports.getUserProfile = (req, res) => {
   const token = req.headers["x-access-token"];
   if (!token) {

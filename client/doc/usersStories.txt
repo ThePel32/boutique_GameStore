@@ -1,0 +1,56 @@
+En tant que utilisateur et administrateur, je veux pouvoir me connecter à l'application.
+
+
+
+I/ User Stories pour la Partie Visiteur :
+
+    1. En tant que visiteur, je veux pouvoir consulter la page d'accueil de l'application/ 
+        pour en apprendre davantage sur l'entreprise et /découvrir les promotions en cours.
+
+
+    2. En tant que visiteur, je veux pouvoir naviguer facilement à travers l'application 
+        en utilisant un menu intuitif pour accéder aux différentes sections.
+
+
+    3. En tant que visiteur, je veux pouvoir voir une liste complète de tous les 
+        jeux vidéo disponibles, (avec la possibilité de filtrer les résultats par prix et 
+        par genre.)
+
+
+    4. En tant que visiteur, je veux pouvoir voir les détails d'un jeu vidéo spécifique, 
+        y compris son nom, sa description, son PEGI, son genre, son prix et son image.
+
+
+    5. En tant que visiteur, je veux pouvoir reserver un jeu et choisir le magasin de retrait
+        ainsi que le jour et l'heure, après m'être authentifié.
+
+
+    6. En tant que visiteur, je veux pouvoir créer un compte utilisateur en fournissant 
+        mon nom, mon adresse e-mail, (mon adresse postale) et un mot de passe.
+
+
+    7. En tant que utilisateur, je veux pouvoir réinitialiser mon mot de passe en cas 
+        d'oubli en fournissant mon adresse e-mail.
+
+    8. En tant qu'utilisateur, je veux pouvoir modifier mon profil.
+
+           
+II/ User Stories pour la Partie Administrateur :
+
+    1. En tant qu'administrateur, je veux pouvoir ajouter de nouveaux jeux vidéo à la 
+        liste des jeux disponibles en spécifiant leur nom, leur description, leur PEGI, 
+        leur genre, leur prix, leur quantité et leur image.
+
+    2. En tant qu'administrateur, je veux pouvoir modifier les informations d'un jeu 
+        vidéo existant, y compris son prix, sa quantité en stock et son image.
+
+    3. En tant qu'administrateur, je veux pouvoir supprimer un jeu vidéo de la liste 
+        des jeux disponibles.
+
+    4. En tant qu'administrateur, je veux pouvoir visualiser les statistiques de 
+        vente des jeux vidéo sous forme de graphique, en filtrant par genre et par date.
+
+    (5. En tant qu'administrateur, je veux pouvoir créer de nouveaux comptes 
+        administrateur en spécifiant leur adresse e-mail et leur mot de passe.)
+
+    (6. En tant qu'administrateur, je veux pouvoir ajouter, modifier ou supprimer un magasin.)

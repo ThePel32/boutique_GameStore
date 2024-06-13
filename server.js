@@ -16,6 +16,11 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use((req, res, next) => {
+  console.log('Requête reçue avec les en-têtes suivants:', req.headers);
+  next();
+});
+
 app.use('/api/users', usersRouter);
 app.use('/api/game', gameRouter);
 app.use('/api/shop', shopRouter);

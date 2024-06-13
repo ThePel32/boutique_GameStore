@@ -1,0 +1,40 @@
+[ ] Phase de Planification (27 mai - 31 mai)
+
+    [x] Analyse des besoins et définition des spécifications :
+        [x] Examiner toutes les US (User Stories) et les exigences du projet.
+        [x] Déterminer les fonctionnalités clés à développer.
+        [x] Identifier les technologies adaptées pour répondre aux besoins du projet.
+
+    [ ] Maquettage et Conception :
+        [ ] Créer des wireframes et des mockups pour chaque page de l'application.
+        [ ] Définir l'architecture de l'application, y compris les bases de données relationnelles.
+        [ ] Élaborer une stratégie de sécurité pour le front-end et le back-end.
+
+    [ ] Gestion de Projet :
+        [ ] Mettre en place un logiciel de gestion de projet (Trello, Notion, etc.).
+        [ ] Organiser les tâches par priorité et les ordonner dans un Kanban partagé.
+        [ ] Établir une stratégie de gestion des branches git et des merges.
+
+[ ] Phase de Développement (1 juin - 10 juillet)
+
+    [ ] Développement Front-end :
+        [ ] Créer les pages HTML, CSS en suivant les wireframes
+        [ ] Implémenter la logique front-end avec JavaScript pour rendre l'interface utilisateur interactive.
+
+    [ ] Développement Back-end :
+        [ ] Mettre en place le back-end en utilisant Node.js avec PDO pour la gestion de la base de données.
+        [ ] Développer les API pour permettre l'interaction entre le front-end et la base de données.
+
+    [ ] Déploiement et Tests :
+        [ ] Déployer l'application sur fly.io ou un autre service d'hébergement.
+        [ ] Effectuer des tests de sécurité et d'intégrité des données.
+        [ ] Rédiger un manuel d'utilisation détaillé et une documentation technique.
+
+[ ] Phase de Finalisation (11 juillet - 22 juillet)
+
+    [ ] Documentation et Livrables :
+        [ ] Créer une documentation détaillée de la gestion de projet et des choix technologiques.
+        [ ] Générer une charte graphique avec la palette de couleurs et la police utilisées.
+        [ ] Rédiger un manuel d'utilisation en format PDF.
+        [ ] Préparer les fichiers SQL pour la création de la base de données.
+        [ ] Compiler tous les livrables requis dans le dépôt GitHub.

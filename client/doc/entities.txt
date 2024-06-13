@@ -1,0 +1,31 @@
+User
+    id: string
+    role: string
+    name: string
+    mail: string
+    password: string
+    createdAt: dateTime
+    birthday: dateTime
+
+game
+    id: string
+    gameName: string
+    pegi: number
+    description: varchar
+    price: number
+    quantity: number
+    image: string
+    gender: string
+
+shop
+    id: string
+    shopName: string
+    adress: string
+    zipCode: number
+    city: string
+
+sale
+    id: string
+    date: dateTime
+    gameGender: string
+
