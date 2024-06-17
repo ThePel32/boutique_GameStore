@@ -1,6 +1,9 @@
 body {
-    background-color: rgb(97, 96, 105);
-    margin: 0;
+    background-image:url("../asset/helldivers-2-key-art-header.webp");
+    background-attachment: fixed;
+    background-size: cover; /* Ajuste l'image pour couvrir toute la page */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center;
 }
 
 header {
