@@ -1,6 +1,16 @@
 const User = require("../models/users.model.js");
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const nodemailer = require('nodemailer');
+const crypto = require('crypto');
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'boutique.gamestore@gmail.com',
+    pass: 'hjmq lhfy nwob ngrt '
+  }
+});
 
 exports.create = (req, res) => {
   if (!req.body) {
@@ -86,6 +96,66 @@ exports.login = (req, res) => {
         accessToken: token
       });
     }
+  });
+};
+
+exports.forgotPassword = (req, res) => {
+  const email = req.body.email;
+
+  User.findByEmail(email, (err, user) => {
+    if(err){
+
+      return res.status(404).send({message: 'User not found'});
+    }
+
+    const token = crypto.randomBytes(20).toString('hex');
+
+    user.resetPasswordToken = token;
+    user.resetPasswordExpires = Date.now() + 3600000;
+
+    User.updateById(user.id, user, (err) => {
+      if(err){
+        return res.status(500).send({message: 'Error updating user'});
+      }
+
+      const mailOptions = {
+        from: 'boutique.gamestore@gmail.com',
+        to: email,
+        subject: 'Réinitialisation du mot de passe',
+        text: `Vous recevez ce message parce que vous (ou quelqu'un d'autre) avez demandé la réinitialisation du mot de passe de votre compte.\n\n
+    Veuillez cliquer sur le lien suivant, ou le copier dans votre navigateur pour compléter le processus :\n\n
+    http://localhost:3000/reset-password/${token}\n\n
+    Si vous n'avez pas demandé cela, veuillez ignorer cet email et votre mot de passe restera inchangé.\n`
+      };
+
+      transporter.sendMail(mailOptions, (error) => {
+        if(error){
+          return res.status(500).send({message: 'Error sending email'});
+        }
+        res.status(200).send({message: 'Email sent'});
+      });
+    });
+  });
+};
+
+exports.resetPassword = (req, res) => {
+  const {token, newPassword} = req.body;
+
+  User.findByResetToken(token, (err, user) => {
+    if (err || !user || user.resetPasswordExpires < Date.now()){
+      return res.status(400).send({message: 'Password reset token is invalid or has expired.'});
+    }
+
+    user.password = bcrypt.hashSync(newPassword, 10);
+    user.resetPasswordToken = null;
+    user.resetPasswordExpires = null;
+
+    User.updateById(user.id, user, (err) => {
+      if (err){
+        return res.status(500).send({message: 'Error updating password'});
+      }
+      res.status(200).send({message: 'Password has been updated'});
+    });
   });
 };
 
