@@ -1,0 +1,13 @@
+<div class="game-card">
+    <div class="game-container">
+        <h2>{{gameCard.title}}</h2>
+        <img [src]="gameCard.imageUrl" [alt]="gameCard.title">
+        <p>{{gameCard.description}}</p>
+    </div>
+    <div class="button-container">
+        <div *ngIf="gameCard.isAvailable">
+            <button  (click)="onAddsave()">{{saleButtonText}}{{ gameCard.save ? ' ✅ ' : ' 🛒 ' }}</button>            
+        </div>
+        <p *ngIf="!gameCard.isAvailable">Hors Stock ❌</p>
+    </div>
+</div>

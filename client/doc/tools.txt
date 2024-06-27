@@ -1,4 +1,0 @@
-postMan => logiciel verification des routes back-end
-
-MySQL/ pgAdmin => creation et gestion de BDD
-
