@@ -10,7 +10,7 @@ exports.create = (req, res) => {
     const shop = new Shop({
         name: req.body.name,
         adress: req.body.adress,
-        zipCode: req.body.zipCode,
+        zipcode: req.body.zipcode,
         city: req.body.city
     });
 

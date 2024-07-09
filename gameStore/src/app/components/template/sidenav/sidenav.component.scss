@@ -1,0 +1,38 @@
+.sidenav-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-sidenav {
+    width: 15%; 
+    min-width: 200px;
+    height: 100%;
+    background-color: rgb(15, 12, 1);
+    border-radius: 0;
+
+  }
+  
+  mat-sidenav button {
+    width: 100%; 
+    height: 50px; 
+    border-radius: 0; 
+    margin: 0; 
+    border: none;
+    color: #dbbc40;
+  }
+  
+  mat-sidenav-content {
+    z-index: 3;
+    flex: 1;
+    padding: 100px;
+    background-image: url("/assets/helldivers-2-key-art-header.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+  }
+
+  
+  

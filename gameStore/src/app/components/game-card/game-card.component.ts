@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { GameCard } from '../../models/game-card';
 import { CommonModule } from '@angular/common';
+import { Game } from '../../models/game.model';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './game-card.component.scss'
 })
 export class GameCardComponent implements OnInit{
-  @Input() gameCard!: GameCard;
+  @Input() gameCard!: Game;
 
   saleButtonText!: string;
 

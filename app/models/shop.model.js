@@ -3,7 +3,7 @@ const sql = require("./db.js");
 const Shop = function(shop) {
     this.name = shop.name;
     this.adress = shop.adress;
-    this.zipCode = shop.zipCode;
+    this.zipcode = shop.zipcode;
     this.city = shop.city;
 };
 
@@ -49,8 +49,8 @@ Shop.getAll = (name, result) => {
 
 Shop.updateById = (id, shop, result) => {
     sql.query(
-        "UPDATE shop SET name = ?, adress = ?, zipCode = ?, city = ? WHERE id = ?",
-        [shop.name, shop.adress, shop.zipCode, shop.city, id],
+        "UPDATE shop SET name = ?, adress = ?, zipcode = ?, city = ? WHERE id = ?",
+        [shop.name, shop.adress, shop.zipcode, shop.city, id],
         (err, res) => {
             if(err){
                 result(null, err);

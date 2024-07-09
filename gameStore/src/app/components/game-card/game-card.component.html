@@ -1,13 +1,17 @@
 <div class="game-card">
     <div class="game-container">
-        <h2>{{gameCard.title}}</h2>
-        <img [src]="gameCard.imageUrl" [alt]="gameCard.title">
-        <p>{{gameCard.description}}</p>
+        <h2>{{gameCard.name}}</h2>
+        <div class="imgContainer">
+            <img [src]="gameCard.imageUrl" [alt]="gameCard.name">
+        </div>
+        <p>{{gameCard.price}}€</p>
     </div>
     <div class="button-container">
-        <div *ngIf="gameCard.isAvailable">
+        <div *ngIf="!!gameCard.quantity">
             <button  (click)="onAddsave()">{{saleButtonText}}{{ gameCard.save ? ' ✅ ' : ' 🛒 ' }}</button>            
         </div>
-        <p *ngIf="!gameCard.isAvailable">Hors Stock ❌</p>
+        <p *ngIf="!gameCard.quantity">Hors Stock ❌</p>
     </div>
 </div>
+
+

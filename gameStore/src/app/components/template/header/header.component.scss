@@ -1,0 +1,43 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(15, 12, 1);
+  }
+  
+  .header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #dbbc40;
+  }
+  
+  .header .logo {
+    max-height: 32px;
+  }
+  
+  .header .title-group {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .header .title-group i {
+    padding-right: 5px;
+  }
+
+  .connectButton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 23px;
+    position: relative;
+    background-color: #dbbc40;
+    border-radius: 23px;
+    border: none;
+
+  }
+  
